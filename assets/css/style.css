@@ -1,9 +1,5 @@
 @charset "utf-8";
 
-a {
-  display: inline-block;
-}
-
 .input-init {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -129,7 +125,7 @@ a {
   text-align: center;
 }
 
-.is-nomalText {
+.is-normalText {
   font-size: 12px;
   color: #949697;
 }
@@ -294,7 +290,6 @@ a {
 
 .textarea {
   height: 100px;
-  overflow: hidden;
 }
 
 .submit-button {
@@ -312,21 +307,13 @@ a {
   color: #01bfbd;
 }
 
+.agreement {
+  font-size: 12px;
+  line-height: 16px;
+}
+
 .link-text {
   color: #01a6a4;
-}
-
-.color-text {
-  color: #01a6a4;
-}
-
-.color-text:hover {
-  border-bottom: solid 1px #01a6a4;
-}
-
-.agreement {
-  line-height: 16px;
-  font-size: 12px;
 }
 
 .foot__content {
@@ -338,5 +325,14 @@ a {
   margin-bottom: 8px;
   line-height: 16px;
   font-size: 12px;
+}
+
+.color-text {
+  color: #01a6a4;
+  border-bottom: solid 1px transparent;
+}
+
+.color-text:hover {
+  border-bottom: solid 1px #01a6a4;
 }
 
